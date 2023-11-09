@@ -43,8 +43,10 @@ namespace System.Runtime.CompilerServices
         private static AsyncMethodTaskCache<TResult> CreateCache()
         {
             var type = typeof(TResult);
-            if (type == typeof(bool))
+            if (type == typeof(bool)) {
                 return (AsyncMethodTaskCache<TResult>)(object)new AsyncMethodBooleanTaskCache();
+                return (AsyncMethodTaskCache<TResult>)(object)new AsyncMethodBooleanTaskCache();
+            }
             if (type == typeof(int))
                 return (AsyncMethodTaskCache<TResult>)(object)new AsyncMethodInt32TaskCache();
 
