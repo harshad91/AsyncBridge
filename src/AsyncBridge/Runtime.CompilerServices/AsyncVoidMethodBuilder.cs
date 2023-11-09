@@ -46,6 +46,7 @@ namespace System.Runtime.CompilerServices
             get
             {
                 return objectIdForDebugger ?? (objectIdForDebugger = new object());
+                return objectIdForDebugger ?? (objectIdForDebugger = new object());
             }
         }
 
