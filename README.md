@@ -1,6 +1,6 @@
 AsyncBridge provides C# 5 `async` and `await` support for pre-net45 projects.
 
-Newly unified package (net35, net40 and sl5):  
+Newly unified package (net35, net40 and sl5)
 [![NuGet](https://img.shields.io/nuget/v/AsyncBridge.svg)](https://www.nuget.org/packages/AsyncBridge/) [![Download count](https://img.shields.io/nuget/dt/AsyncBridge.svg)](https://www.nuget.org/packages/AsyncBridge/)
 
 Deprecated packages:  
